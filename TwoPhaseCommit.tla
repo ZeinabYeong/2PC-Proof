@@ -470,4 +470,9 @@ THEOREM InductiveInvariant == Spec => [] Safety
 <1>3. Inv => Safety
   BY SMT, InvImpliesSafety DEFS Safety, Inv 
 <1>4. QED BY <1>1,<1>2,<1>3,PTL DEF Spec  
+
+
+
+
+
 =============================================================================
